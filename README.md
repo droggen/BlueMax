@@ -14,8 +14,7 @@ Key features:
     * 45 18x18 multipliers
     * 4 PLLs
     * 1 ADC
-  * 20MHz default – up to 80MHz
-  * Built-in RTC
+  * 24MHz oscillator
 * Peripherals
   * 5 push buttons
   * 2 7-segment displays, including dot
