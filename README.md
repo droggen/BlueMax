@@ -1,5 +1,7 @@
 # BlueMax
 
+![BlueMax](/img/IMG_2148_best2_xp_25p.png)
+
 
 BlueMax - a wearable FPGA board to hardware-accelerate signal processing and machine learning, based on an Altera/Intel MAX 10 (10M16SAU169
 
