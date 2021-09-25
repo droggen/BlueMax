@@ -11,6 +11,9 @@ Key features:
   * 10M16SAU169 FPGA (Altera/Intel Max 10 FPGA)
     * 16K Logic Elements
     * 549Kbit memory
+    * 45 18x18 multipliers
+    * 4 PLLs
+    * 1 ADC
   * 20MHz default – up to 80MHz
   * Built-in RTC
 * Peripherals
