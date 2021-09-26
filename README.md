@@ -27,4 +27,8 @@ Key features:
   
   
   
+## Configuration
 
+Install USB Blaster driver: https://www.terasic.com.tw/wiki/Altera_USB_Blaster_Driver_Installation_Instructions
+If the driver isn't installed, it may be an issue of expired certificate: https://www.intel.com/content/www/us/en/support/programmable/articles/000086243.html
+Follow this https://www.intel.com/content/www/us/en/support/programmable/articles/000086243.html and install both patches pointing to the Quartus Lite directory.
