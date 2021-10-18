@@ -28,19 +28,7 @@ cds
                                     rows.
 ----------- ------- --------------- -------------------------
 
---------------------------------------------------------------------------------------------------------------------------------------------
-Name            Description     Location        Examples            Start            Peak            Duration        Appearance
---------------- --------------- --------------  ------------------- ---------------- --------------  ---------------  -------------------
-Prandial        short-acting    belly,          Lispro (Humalog),   5-10 min before  30-60 minutes   2-4 hours       Transparent
-                analogs         abdomen         Aspart (Novorapid), meal
-                = chemically                    Glulisine (Apidra)
-                sythesized;
 
-
-Regular/short   human insulin   addomen         Humulin R           30 min before    60 minutes      6-8 hours,       Transparent
-                not analog                                          meal                             hypoglycemia
-                                                                    not flexible                     risk 
--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
