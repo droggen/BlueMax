@@ -44,13 +44,13 @@ entity bluemax_top is
 		;XP_8 : in std_logic
 		
 		-- XF connector
-		;XF_5 : in std_logic
-		;XF_6 : in std_logic
 		;XF_1 : in std_logic
-		;XF_7 : in std_logic
+		;XF_2 : in std_logic
 		;XF_3 : in std_logic
 		;XF_4 : in std_logic
-		;XF_2 : in std_logic
+		;XF_5 : in std_logic
+		;XF_6 : in std_logic
+		;XF_7 : in std_logic		
 		;XF_8 : in std_logic
 		;XF_9 : in std_logic
 		;XF_10 : in std_logic
