@@ -25,10 +25,18 @@ Key features:
 * Usage
   * Suitable for standalone use or as an extension to plug onto ![BlueSense4](https://github.com/droggen/BlueSense4)
   
-  
+## Project structure
+
+* Documentation about the hardware (schematics, pin mapping and developer manual) is under hardware
+* Example circuits are under firmware
+
+
+
   
 ## Configuration
 
 Install USB Blaster driver: https://www.terasic.com.tw/wiki/Altera_USB_Blaster_Driver_Installation_Instructions
-If the driver isn't installed, it may be an issue of expired certificate: https://www.intel.com/content/www/us/en/support/programmable/articles/000086243.html
+
+If the driver is not installed, it may be an issue of expired certificate: https://www.intel.com/content/www/us/en/support/programmable/articles/000086243.html
+
 Follow this https://www.intel.com/content/www/us/en/support/programmable/articles/000086243.html and install both patches pointing to the Quartus Lite directory.
