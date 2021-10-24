@@ -1,10 +1,16 @@
-# Template circuits
+## Pin mapping
 
-## basic
+The folder pinmapping contains qsf files with the location assignment of the FPGA pins. 
+Use this when creating a new project: copy/append this file into the project qsf file to easily include all the pin assignments.
+Note that the state of pull-ups must be adjusted based on the actual user circuit.
+
+## Template circuits
+
+### basic
 
 Minimalistic circuit turning on LEDs according to the push-buttons and displaying a digit on the 7-segment display.
 
-## basic\_selftest
+### basic\_selftest
 
 This design separates the "core" circuit and a "self-test" circuit in distinct files. 
 
@@ -16,7 +22,7 @@ The "core" functionality in this example is another animation on the 7-segment d
 
 This circuit can be used as a starting point for more complex designs, with the self-test functionality useful as a basic check of the hardware.
 
-## uart\_selftest
+### uart\_selftest
 
 This design includes a UART in the "core" circuit. 
 Data is sent over the UART (9600 bps), and the data received from the UART is shown on the 7-segment display.
