@@ -1,0 +1,34 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\wearlab\hardware\BlueMax\public\firmware\v1\uart_selftest_tryouts\dan2.qsys --block-symbol-file --output-directory=D:\wearlab\hardware\BlueMax\public\firmware\v1\uart_selftest_tryouts\dan2 --family="MAX 10" --part=10M16SAU169C8G
+Progress: Loading uart_selftest_tryouts/dan2.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding rs232_0 [altera_up_avalon_rs232 17.1]
+Progress: Parameterizing module rs232_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\wearlab\hardware\BlueMax\public\firmware\v1\uart_selftest_tryouts\dan2.qsys --synthesis=VHDL --output-directory=D:\wearlab\hardware\BlueMax\public\firmware\v1\uart_selftest_tryouts\dan2\synthesis --family="MAX 10" --part=10M16SAU169C8G
+Progress: Loading uart_selftest_tryouts/dan2.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding rs232_0 [altera_up_avalon_rs232 17.1]
+Progress: Parameterizing module rs232_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dan2: Generating dan2 "dan2" for QUARTUS_SYNTH
+Info: rs232_0: Starting Generation of RS232 UART
+Info: rs232_0: "dan2" instantiated altera_up_avalon_rs232 "rs232_0"
+Info: rst_controller: "dan2" instantiated altera_reset_controller "rst_controller"
+Info: dan2: Done "dan2" with 3 modules, 9 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
