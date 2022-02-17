@@ -1,0 +1,20 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst bluemax_platform.pio_0 -pg 1 -lvl 3 -y 230
+preplace inst bluemax_platform.clk_0 -pg 1 -lvl 1 -y 270
+preplace inst bluemax_platform -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst bluemax_platform.onchip_memory2_0 -pg 1 -lvl 3 -y 30
+preplace inst bluemax_platform.nios2_gen2_0.reset_bridge -pg 1
+preplace inst bluemax_platform.nios2_gen2_0.cpu -pg 1
+preplace inst bluemax_platform.nios2_gen2_0.clock_bridge -pg 1
+preplace inst bluemax_platform.jtag_uart_0 -pg 1 -lvl 3 -y 120
+preplace inst bluemax_platform.nios2_gen2_0 -pg 1 -lvl 2 -y 110
+preplace netloc EXPORT<net_container>bluemax_platform</net_container>(SLAVE)pio_0.external_connection,(SLAVE)bluemax_platform.pio) 1 0 3 NJ 260 NJ 320 NJ
+preplace netloc EXPORT<net_container>bluemax_platform</net_container>(SLAVE)clk_0.clk_in,(SLAVE)bluemax_platform.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>bluemax_platform</net_container>(SLAVE)onchip_memory2_0.clk1,(SLAVE)nios2_gen2_0.clk,(SLAVE)pio_0.clk,(MASTER)clk_0.clk,(SLAVE)jtag_uart_0.clk) 1 1 2 240 280 700
+preplace netloc INTERCONNECT<net_container>bluemax_platform</net_container>(MASTER)nios2_gen2_0.data_master,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)pio_0.s1,(SLAVE)nios2_gen2_0.debug_mem_slave,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)onchip_memory2_0.s1) 1 1 2 300 260 660
+preplace netloc EXPORT<net_container>bluemax_platform</net_container>(SLAVE)bluemax_platform.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>bluemax_platform</net_container>(MASTER)nios2_gen2_0.irq,(SLAVE)jtag_uart_0.irq) 1 2 1 720
+preplace netloc INTERCONNECT<net_container>bluemax_platform</net_container>(SLAVE)jtag_uart_0.reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)nios2_gen2_0.reset,(SLAVE)pio_0.reset,(MASTER)nios2_gen2_0.debug_reset_request,(MASTER)clk_0.clk_reset) 1 1 2 280 300 680
+levelinfo -pg 1 0 40 940
+levelinfo -hier bluemax_platform 50 80 430 780 930
