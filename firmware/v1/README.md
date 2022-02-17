@@ -30,3 +30,9 @@ Data is sent over the UART (9600 bps), and the data received from the UART is sh
 Using the UART assumes that BlueMax is plugged onto BasePower, which includes a UART-USB transceiver. 
 Alternatively, it can be used with BlueSense, if the firmware of BlueSense is modified to enable its UART interface on the appropriate pins.
 
+### uart\_selftest\_platformeditor
+
+This design uses the Platform Editor to instantiate the RS232 UART from the University Program in the IP catalog.
+The design works otherwise identically to uart\_selftest, except the baudrate is 115200 bps.
+
+This design may be used as a starting point for a design using the platform designer.
